@@ -1,0 +1,57 @@
+{
+  "name": "testatron",
+  "homepage": "https://aritysoftware.com",
+  "company": "Arity",
+  "version": "1.0.2",
+  "description": "Dead simple unit testing JSDOC syntax.",
+  "main": "index.js",
+  "readme": "README.md",
+  "keywords": [
+    "Acid",
+    "utility",
+    "Lucy",
+    "CWA",
+    "Arity",
+    "Unit testing"
+  ],
+  "dependencies": {
+    "Lucy": "^2.0.69",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-minify-empty-function": "*",
+    "babel-preset-babili": "^1.0.0",
+    "babel-preset-es2015": "*",
+    "comment-parser": "^0.3.2",
+    "docredux": "^1.0.5",
+    "esformatter": "*",
+    "eslint": "^5.2.0",
+    "node-watch": "^0.5.8",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babili": "^3.1.1"
+  },
+  "maintainers": [
+    {
+      "email": "tommarchi@protonmail.com",
+      "name": "Tom Marchi"
+    },
+    {
+      "email": "erickdelgado@protonmail.com",
+      "name": "Erick Delgado"
+    }
+  ],
+  "author": [
+    {
+      "email": "tommarchi@protonmail.com",
+      "name": "Tom Marchi"
+    },
+    {
+      "email": "erickdelgado@protonmail.com",
+      "name": "Erick Delgado"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArityLLCNJ/testatron.git"
+  },
+  "license": "ISC"
+}
