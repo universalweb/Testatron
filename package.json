@@ -3,7 +3,7 @@
   "homepage": "https://aritysoftware.com",
   "company": "Arity",
   "version": "1.0.2",
-  "description": "Dead simple unit testing JSDOC syntax.",
+  "description": "Dead simple unit testing for JSDOC syntax.",
   "main": "index.js",
   "readme": "README.md",
   "keywords": [
