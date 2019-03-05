@@ -4,13 +4,13 @@ const {
   eachArray,
   eachObject,
 } = lucy;
-const esformatter = require('esformatter');
+const format = require("prettier-eslint");
 const writeFile = (fileLocation, fileData) => {
   try {
-    const formattedCode = esformatter.format(fileData, {
-      indent: {
-        value: '  '
-      }
+    const eslintConfig = JSON.parse(fs.readFileSync('./.eslintrc').toString());
+    const formattedCode = format({
+      eslintConfig,
+      text: fileData,
     });
     return fs.writeFileSync(`${fileLocation}`, formattedCode, 'utf8');
   } catch (error) {
