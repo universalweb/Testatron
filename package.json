@@ -2,7 +2,7 @@
 	"name": "testatron",
 	"homepage": "https://universalweb.io",
 	"company": "Universal Web, Inc",
-	"version": "2.0.8",
+	"version": "2.0.9",
 	"description": "Dead simple unit testing for JSDOC syntax.",
 	"main": "index.js",
 	"readme": "README.md",
