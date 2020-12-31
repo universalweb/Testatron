@@ -1,40 +1,35 @@
 {
-  "name": "testatron",
-  "homepage": "https://arity.company",
-  "company": "Arity",
-  "version": "2.0.3",
-  "description": "Dead simple unit testing for JSDOC syntax.",
-  "main": "index.js",
-  "readme": "README.md",
-  "keywords": [
-    "Acid",
-    "utility",
-    "Lucy",
-    "CWA",
-    "Arity",
-    "Unit testing"
-  ],
-  "dependencies": {
-    "Lucy": "*",
-    "comment-parser": "*",
-    "prettier-eslint": "^8.8.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/helpers": "^7.3.1",
-    "@babel/preset-env": "*",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.1"
-  },
-  "author": [
-    {
-      "email": "tommarchi@protonmail.com",
-      "name": "Tom Marchi"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArityOfficial/testatron.git"
-  },
-  "license": "ISC"
+	"name": "testatron",
+	"homepage": "https://universalweb.io",
+	"company": "Universal Web, Inc",
+	"version": "2.0.8",
+	"description": "Dead simple unit testing for JSDOC syntax.",
+	"main": "index.js",
+	"readme": "README.md",
+	"keywords": [
+		"utility",
+		"Universal Web",
+		"test",
+		"Unit testing"
+	],
+	"dependencies": {
+		"Lucy": "^2.2.6",
+		"comment-parser": "^0.7.6",
+		"prettier-eslint": "^9.0.2"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.8.0"
+	},
+	"author": [
+		{
+			"email": "tommarchi@protonmail.com",
+			"name": "Tom Marchi"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tomekmarchi/testatron.git"
+	},
+	"license": "ISC"
 }

@@ -1,7 +1,10 @@
 # testatron
-Dead simple unit testing.  
+
+Dead simple unit testing.
+
 ### Example use
-~~~~
+
+```
 (async () => {
   const lucy = require('Lucy');
   const testatron = require('testatron');
@@ -20,5 +23,6 @@ Dead simple unit testing.
   });
   console.log('END');
 })();
-~~~~
-Arity 2017
+```
+
+© copyright 2021 [Universal Web, Inc](https://universalweb.io)
