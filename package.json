@@ -2,7 +2,7 @@
 	"name": "testatron",
 	"homepage": "https://universalweb.io",
 	"company": "Universal Web, Inc",
-	"version": "2.0.9",
+	"version": "2.1.0",
 	"description": "Dead simple unit testing for JSDOC syntax.",
 	"main": "index.js",
 	"readme": "README.md",
@@ -13,7 +13,7 @@
 		"Unit testing"
 	],
 	"dependencies": {
-		"Lucy": "^2.2.6",
+		"Lucy": "^2.2.7",
 		"comment-parser": "^0.7.6",
 		"prettier-eslint": "^9.0.2"
 	},
