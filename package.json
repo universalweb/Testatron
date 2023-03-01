@@ -12,21 +12,22 @@
 		"test",
 		"Unit testing"
 	],
-	"dependencies": {
-		"Lucy": "^2.2.7",
-		"comment-parser": "^0.7.6",
-		"prettier-eslint": "^9.0.2"
-	},
-	"devDependencies": {
-		"babel-eslint": "^10.1.0",
-		"eslint": "^6.8.0"
-	},
-	"author": [
-		{
-			"email": "tommarchi@protonmail.com",
-			"name": "Tom Marchi"
-		}
-	],
+    "dependencies": {
+        "Acid": "^3.0.20",
+        "comment-parser": "*",
+        "eslint": "*",
+        "eslint-plugin-jsdoc": "*",
+        "prettier-eslint": "*"
+    },
+    "devDependencies": {
+        "@babel/core": "*",
+        "@babel/eslint-parser": "*",
+        "@babel/preset-env": "*"
+    },
+    "author": {
+        "email": "info@universalweb.io",
+        "name": "universalweb"
+    },
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/tomekmarchi/testatron.git"
